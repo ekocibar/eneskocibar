@@ -65,24 +65,24 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Enes Kocibar.
         </BigTitle>
-        <Subtitle>I'm the king of the 7 kingdoms, and protector of the realm.</Subtitle>
+        <Subtitle>Software Developer</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Starks"
-            link="https://gameofthrones.fandom.com/wiki/House_Stark"
+            title="EAGLE FENCE&DECK"
+            link="https://www.eaglefencedeck.ca/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            Rulers of the North from the castle of Winterfell.
+            Nextjs, Reactstrap and NetlifyCMS [WIP]
           </ProjectCard>
           <ProjectCard
-            title="Targaryens"
-            link="https://gameofthrones.fandom.com/wiki/House_Targaryen"
+            title="Organik Lezzetler"
+            link="https://www.organiklezzetler.net/"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            Former royal house and rulers of the Crownlands from the castle of the Red Keep.
+            React, Reactstrap
           </ProjectCard>
           <ProjectCard
             title="Baratheons"

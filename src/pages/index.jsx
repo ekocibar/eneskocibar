@@ -63,61 +63,71 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm Enes Kocibar.
+           Hello, <br/> This is Enes Kocibar.
         </BigTitle>
-        <Subtitle>Software Developer</Subtitle>
+        <Subtitle>A Software Developer</Subtitle>
       </Hero>
+
+
+
       <Projects offset={1}>
-        <Title>Projects</Title>
+        <Title>Some side Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
             title="EAGLE FENCE&DECK"
             link="https://www.eaglefencedeck.ca/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            Nextjs, Reactstrap and NetlifyCMS [WIP]
+            A NextJs project along with NetlifyCMS with Express [WIP]
           </ProjectCard>
           <ProjectCard
             title="Organik Lezzetler"
             link="https://www.organiklezzetler.net/"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            React, Reactstrap
+            A React Project
           </ProjectCard>
           <ProjectCard
-            title="Baratheons"
-            link="https://gameofthrones.fandom.com/wiki/House_Baratheon"
+            title="Kerim Teknik"
+            link="https://kerimteknik.netlify.app/"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Rulers of the Crownlands and Stormlands from the Red Keep and Storm's End, respectively. 
+            A Gatsby Project with NetlifyCMS 
           </ProjectCard>
           <ProjectCard
-            title="Lannisters"
-            link="https://gameofthrones.fandom.com/wiki/House_Lannister"
+            title="Enes Kocibar"
+            link="https://eneskocibar.nl"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            Rulers of the Westerlands from the castle of Casterly Rock.
+            Another Gatsby project
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
-        <Title>About</Title>
+        <Title>About me</Title>
         <AboutHero>
           <Avatar src={avatar} alt="Enes Kocibar" />
           <AboutSub>
-          Never forget what you are. The rest of the world will not. Wear it like armour, and it can never be used to hurt you.
+            A passionate lifetime learner.  
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-        SOME WORDS.. <br /><br />
-        Sırt üstü gömülür insanlar Ama sen beni yüzüstü bıraktın. <br />
-        Oyun bitti perde kapandı gerçek hayata hoş geldin.<br />
-        Sustuğum yerde sen varsın. Konuştuğum yerde özlemin…<br />
-        Seninde sevgin yalan, yalan dünya gibi sende yalansın.<br />
-        İstersem çare, istemezsem bahane bulurum. Sen rahat ol!<br />
-        Masal kitabı gibisin, okuması güzel ama inanması çok zor.<br />
-        Ölürsem beni yarimin kalbine gömün. Mekanım cennet olsun.<br />
-        Ve sonra anlıyorsun. Hiç kimsenin hiçbir şeye değmediğini…
+        I wrote my first codes more than 13 years ago in C, but I joined the club again 3 years back.<br /><br />
+        <span style={{textDecoration: 'underline'}}>CURRENT STACK </span><br/>
+        Main Languages    :  Python, JavaScript<br />
+        Backend           :  Django, Flask<br />
+        Frontend          :  React, AngularJs, Node, HTML5, CSS3<br />
+        Test - QA         :  Jest, Enzyme <br />
+        Design / Arch     :  OOP <br/>
+        API's             :  Tastypie<br />
+        Methodologies     :  Agile w/ Scrum, TDD <br />
+        PM tool           :  Jira<br />
+        Business Platforms:  CRMSuite, CMS<br />
+        Dev Tools         :  Docker, Postman<br />
+        RDBMS             :  MySQL<br />
+        Cloud Platforms   :  gCloud <br/>
+        Version Control   :  Git, GitLab
+
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -125,13 +135,13 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:ekocibar@hotmail.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://www.linkedin.com/in/eneskocibar/">LinkedIn</a> &{' '}
-            <a href="https://www.instagram.com/eneskocibar/">Instagram</a>
+            <a href="https://linkedin.com/in/eneskocibar/">LinkedIn</a> &{' '}
+            <a href="https://github.com/ekocibar/">GitHub</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019{' '}
-          <a href="https://github.com/pesh12/eneskocibar">Enes Kocibar</a>
+          &copy; 2020{' '}
+          <a href="https://instagram.com/eneskocibar">Enes Kocibar</a>
         </Footer>
       </Contact>
     </Parallax>

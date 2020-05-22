@@ -78,7 +78,7 @@ const Index = () => (
             link="https://www.eaglefencedeck.ca/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            A NextJs project along with NetlifyCMS with Express [WIP]
+            A NextJs project along with NetlifyCMS, Express [WIP]
           </ProjectCard>
           <ProjectCard
             title="Organik Lezzetler"
@@ -99,7 +99,7 @@ const Index = () => (
             link="https://eneskocibar.nl"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            Another Gatsby project
+            You are here now
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -112,20 +112,21 @@ const Index = () => (
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-        I wrote my first codes more than 13 years ago in C, but I joined the club again 3 years back.<br /><br />
+        I wrote my first codes more than 10 years ago in C, but I joined the club again 3 years back. 
+        Like empowering my stack, and invest my time on it. Everyday single day should be better than the day before...<br /><br />
         <span style={{textDecoration: 'underline'}}>CURRENT STACK </span><br/>
         Main Languages    :  Python, JavaScript<br />
-        Backend           :  Django, Flask<br />
-        Frontend          :  React, AngularJs, Node, HTML5, CSS3<br />
-        Test - QA         :  Jest, Enzyme <br />
+        Backend           :  Django, Flask, Express<br />
+        Frontend          :  React, AngularJs(1), Node, HTML5, CSS3<br />
+        Test - QA         :  Autofixture, Jest, Enzyme <br />
         Design / Arch     :  OOP <br/>
         API's             :  Tastypie<br />
         Methodologies     :  Agile w/ Scrum, TDD <br />
-        PM tool           :  Jira<br />
+        PM tools          :  Jira, Trello, Slack<br />
         Business Platforms:  CRMSuite, CMS<br />
         Dev Tools         :  Docker, Postman<br />
         RDBMS             :  MySQL<br />
-        Cloud Platforms   :  gCloud <br/>
+        Cloud Platforms   :  gcloud <br/>
         Version Control   :  Git, GitLab
 
         </AboutDesc>

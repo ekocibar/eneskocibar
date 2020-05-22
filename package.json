@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-cara",
+  "name": "enes-kocibar-portfolio",
   "description": "Playful & Colorful One-Page website with Parallax effect powered by react-spring, TailwindCSS.",
   "version": "3.0.0",
-  "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+  "author": "Enes Kocibar (https://www.eneskocibar.nl)",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
@@ -29,9 +29,11 @@
     "typeface-open-sans": "^0.0.54"
   },
   "keywords": [
-    "gatsby",
-    "starter",
-    "portfolio"
+    "enes",
+    "kocibar",
+    "portfolio",
+    "software",
+    "developer"
   ],
   "scripts": {
     "dev": "gatsby develop -o",
@@ -53,11 +55,11 @@
     "prettier": "^1.16.4"
   },
   "repository": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
+    "url": "https://github.com/ekocibar/eneskocibar",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara/issues"
+    "url": "https://github.com/ekocibar/eneskociba/issues"
   },
-  "homepage": "https://cara.lekoarts.de"
+  "homepage": "https://eneskocibar.nl"
 }

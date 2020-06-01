@@ -96,7 +96,7 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Hyfer Education"
-            link="https://hyfer.herokuapp.com/about"
+            link="https://hyfer.herokuapp.com/"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             A fullstack React project.

@@ -95,11 +95,11 @@ const Index = () => (
             A Gatsby Project with NetlifyCMS 
           </ProjectCard>
           <ProjectCard
-            title="Enes Kocibar"
-            link="https://eneskocibar.nl"
+            title="Hyfer Education"
+            link="https://hyfer.herokuapp.com/about"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            You are here now
+            A fullstack React project.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -108,12 +108,15 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="Enes Kocibar" />
           <AboutSub>
-            A passionate lifetime learner.  
+            Every single day should be better than the day before. 
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-        I wrote my first codes more than 10 years ago in C, but I joined the club again 3 years back. 
-        Like empowering my stack, and invest my time on it. Everyday single day should be better than the day before...<br /><br />
+        I wrote my first codes more than 10 years ago in C, but I joined the club again 3 years back.
+        I am a full stack developer motivated to achieve goals. 
+        I have over three years of experience with full-stack development and at this stage, 
+        I focus primarily on Django and React. Like empowering the stack, and invest my time on it. 
+        <br /><br />
         <span style={{textDecoration: 'underline'}}>CURRENT STACK </span><br/>
         Main Languages    :  Python, JavaScript<br />
         Backend           :  Django, Flask, Express<br />

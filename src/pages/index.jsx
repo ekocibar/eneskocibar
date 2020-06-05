@@ -63,16 +63,28 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-           Hello, <br/> This is Enes Kocibar.
+          Hello, <br /> This is Enes Kocibar.
         </BigTitle>
         <Subtitle>A Software Developer</Subtitle>
       </Hero>
 
-
-
       <Projects offset={1}>
-        <Title>Some side Projects</Title>
+        <Title>Projects</Title>
         <ProjectsWrapper>
+          <ProjectCard
+            title="Energiepartners"
+            link="https://www.energiepartners.com/"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+          >
+            A static NextJs project with a content management system
+          </ProjectCard>
+          <ProjectCard
+            title="Energieplanner"
+            link="https://www.energieplanner.nl/"
+            bg="linear-gradient(to right, #0d6b13 0%, #80bfbd 100%)"
+          >
+            Backend: Django <br /> Frontend : React, AngularJs
+          </ProjectCard>
           <ProjectCard
             title="EAGLE FENCE&DECK"
             link="https://www.eaglefencedeck.ca/"
@@ -82,8 +94,8 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Organik Lezzetler"
-            link="https://www.organiklezzetler.net/"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            link="https://www.organiklezzetler.org/"
+            bg="linear-gradient(to right, #6e7513 0%, #f0ff26 100%)"
           >
             A React Project
           </ProjectCard>
@@ -92,7 +104,7 @@ const Index = () => (
             link="https://kerimteknik.netlify.app/"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            A Gatsby Project with NetlifyCMS 
+            A Gatsby Project with NetlifyCMS
           </ProjectCard>
           <ProjectCard
             title="Hyfer Education"
@@ -107,31 +119,28 @@ const Index = () => (
         <Title>About me</Title>
         <AboutHero>
           <Avatar src={avatar} alt="Enes Kocibar" />
-          <AboutSub>
-            Every single day should be better than the day before. 
-          </AboutSub>
+          <AboutSub>Every single day should be better than the day before.</AboutSub>
         </AboutHero>
         <AboutDesc>
-        I wrote my first codes more than 10 years ago in C, but I joined the club again 3 years back.
-        I am a full stack developer motivated to achieve goals. 
-        I have over three years of experience with full-stack development and at this stage, 
-        I focus primarily on Django and React. Like empowering the stack, and invest my time on it. 
-        <br /><br />
-        <span style={{textDecoration: 'underline'}}>CURRENT STACK </span><br/>
-        Main Languages    :  Python, JavaScript<br />
-        Backend           :  Django, Flask, Express<br />
-        Frontend          :  React, AngularJs(1), Node, HTML5, CSS3<br />
-        Test - QA         :  Autofixture, Jest, Enzyme <br />
-        Design / Arch     :  OOP <br/>
-        API's             :  Tastypie<br />
-        Methodologies     :  Agile w/ Scrum, TDD <br />
-        PM tools          :  Jira, Trello, Slack<br />
-        Business Platforms:  CRMSuite, CMS<br />
-        Dev Tools         :  Docker, Postman<br />
-        RDBMS             :  MySQL<br />
-        Cloud Platforms   :  gcloud <br/>
-        Version Control   :  Git, GitLab
-
+          I wrote my first codes more than 10 years ago in C, but I joined the club again 3 years back. I am a full
+          stack developer motivated to achieve goals. I have over three years of experience with full-stack development
+          and at this stage, I focus primarily on Django and React. Like empowering the stack, and invest my time on it.
+          <br />
+          <br />
+          <span style={{ textDecoration: 'underline' }}>CURRENT STACK </span>
+          <br /> Main Languages : Python, JavaScript
+          <br /> Backend : Django, Flask, Express
+          <br /> Frontend : React, AngularJs(1), Node, HTML5, CSS3
+          <br /> Test - QA : Autofixture, Jest, Enzyme
+          <br /> Design / Arch : OOP
+          <br /> API's : Tastypie
+          <br /> Methodologies : Agile w/ Scrum, TDD
+          <br /> PM tools : Jira, Trello, Slack
+          <br /> Business Platforms: CRMSuite, CMS
+          <br /> Dev Tools : Docker, Postman
+          <br /> RDBMS : MySQL
+          <br /> Cloud Platforms : gcloud
+          <br /> Version Control : Git, GitLab
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -139,13 +148,12 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:ekocibar@hotmail.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://linkedin.com/in/eneskocibar/">LinkedIn</a> &{' '}
-            <a href="https://github.com/ekocibar/">GitHub</a>
+            <a href="https://linkedin.com/in/eneskocibar/" target="_blank" >LinkedIn</a> &{' '}
+            <a href="https://github.com/ekocibar/" target="_blank" >GitHub</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2020{' '}
-          <a href="https://instagram.com/eneskocibar">Enes Kocibar</a>
+          &copy; 2020 <a href="https://instagram.com/eneskocibar" target="_blank">Enes Kocibar</a>
         </Footer>
       </Contact>
     </Parallax>

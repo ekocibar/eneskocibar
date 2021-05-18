@@ -122,8 +122,8 @@ const Index = () => (
           <AboutSub>Every single day should be better than the day before.</AboutSub>
         </AboutHero>
         <AboutDesc>
-          I wrote my first codes more than 10 years ago in C, but I joined the club again 3 years back. I am a full
-          stack developer motivated to achieve goals. I have over three years of experience with full-stack development
+          I wrote my first codes more than 10 years ago in C, but I joined the club again 4 years back. I am a full
+          stack developer motivated to achieve goals. I have over four years of experience with full-stack development
           and at this stage, I focus primarily on Django and React. Like empowering the stack, and invest my time on it.
           <br />
           <br />

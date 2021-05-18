@@ -153,7 +153,7 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2020 <a href="https://instagram.com/eneskocibar" target="_blank">Enes Kocibar</a>
+          &copy; 2021 <a href="https://instagram.com/eneskocibar" target="_blank">Enes Kocibar</a>
         </Footer>
       </Contact>
     </Parallax>

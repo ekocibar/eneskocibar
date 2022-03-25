@@ -129,17 +129,17 @@ const Index = () => (
           <br />
           <span style={{ textDecoration: 'underline' }}>CURRENT STACK </span>
           <br /> Main Languages : Python, JavaScript
-          <br /> Backend : Django, Flask, Express
-          <br /> Frontend : React, AngularJs(1), Node, HTML5, CSS3
+          <br /> Backend : Django, Flask, Express, Sitecore
+          <br /> Frontend : React, Vue, AngularJs(1), Node, HTML5, CSS3
           <br /> Test - QA : Autofixture, Jest, Enzyme
           <br /> Design / Arch : OOP
           <br /> API's : Tastypie
           <br /> Methodologies : Agile w/ Scrum, TDD
-          <br /> PM tools : Jira, Trello, Slack
+          <br /> PM tools : Jira, Webex, Trello, Slack
           <br /> Business Platforms: CRMSuite, CMS
-          <br /> Dev Tools : Docker, Postman
+          <br /> Dev Tools : Docker, Postman, TravisCI, Octopus
           <br /> RDBMS : MySQL
-          <br /> Cloud Platforms : gcloud
+          <br /> Cloud Platforms : GCP
           <br /> Version Control : Git, GitLab
         </AboutDesc>
       </About>
@@ -153,7 +153,7 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2021 <a href="https://instagram.com/eneskocibar" target="_blank">Enes Kocibar</a>
+          &copy; 2022 <a href="https://instagram.com/eneskocibar" target="_blank">Enes Kocibar</a>
         </Footer>
       </Contact>
     </Parallax>
